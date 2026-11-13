@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/hello.js",
-    "dev": "npx ts-node src/hello.ts",
+    "dev": "tsx",
     "type-check": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
