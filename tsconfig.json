@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    // Compileert naar moderne JavaScript
+    "module": "NodeNext",
+    // Gebruikt het Node.js module-systeem
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    // Zet ALLE strenge controles aan
+    "outDir": "./dist",
+    // Gecompileerde JS gaat in de dist-map
+    "rootDir": "./src",
+    // Jouw TS bronbestanden staan in src/
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  // Verwerk alle bestanden in src/
+  "exclude": ["node_modules"]
+  // Negeer node_modules altijd
+}
